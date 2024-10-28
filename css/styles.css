@@ -151,35 +151,3 @@ h1 {
     line-height: 1.5;
 }
 
-/* Media queries para responsividad */
-@media (max-width: 768px) {
-    .hero {
-        flex-direction: column;
-    }
-
-    .features {
-        flex-direction: column;
-    }
-
-    .nav-links {
-        display: none;
-    }
-
-    h1 {
-        font-size: 2.5rem;
-    }
-}
-
-@media (max-width: 480px) {
-    h1 {
-        font-size: 2rem;
-    }
-
-    .hero {
-        padding: 2rem 5%;
-    }
-
-    .features {
-        padding: 2rem 5%;
-    }
-}
